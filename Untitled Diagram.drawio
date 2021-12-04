@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-04T07:48:52.298Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="itMScPL7xWgRZQTOUq-_" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-04T08:06:54.252Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="4XX1a2spdeTL4oMQBKPG" version="15.9.1" type="github">
   <diagram id="YOmD0kXWxS8xvpvF7nBD" name="Page-1">
-    <mxGraphModel dx="946" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="788" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,12 +11,21 @@
           <mxGeometry x="180" y="40" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="AELnW6AsCIxtF1nec7tT-3" value="UserApiController&lt;br&gt;.java" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="370" y="40" width="100" height="300" as="geometry" />
+          <mxGeometry x="370" y="40" width="110" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="AELnW6AsCIxtF1nec7tT-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="AELnW6AsCIxtF1nec7tT-3">
+          <mxGeometry x="50.5" y="80" width="9.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AELnW6AsCIxtF1nec7tT-4" value="토큰 생성" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="560" y="40" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="AELnW6AsCIxtF1nec7tT-6" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="AELnW6AsCIxtF1nec7tT-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="AELnW6AsCIxtF1nec7tT-4">
+          <mxGeometry x="42" y="80" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AELnW6AsCIxtF1nec7tT-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="AELnW6AsCIxtF1nec7tT-4">
+          <mxGeometry x="42" y="150" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AELnW6AsCIxtF1nec7tT-6" value="DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="750" y="40" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="AELnW6AsCIxtF1nec7tT-7" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
@@ -33,6 +42,38 @@
         </mxCell>
         <mxCell id="AELnW6AsCIxtF1nec7tT-11" value="OOO.java" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="750" y="380" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="AELnW6AsCIxtF1nec7tT-18" value="userLogin(id, password)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="AELnW6AsCIxtF1nec7tT-17" parent="1" source="AELnW6AsCIxtF1nec7tT-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AELnW6AsCIxtF1nec7tT-19" value="Acc, Ref Token return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="AELnW6AsCIxtF1nec7tT-17" parent="1" target="AELnW6AsCIxtF1nec7tT-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350.5" y="196" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AELnW6AsCIxtF1nec7tT-26" value="makeJwtAccToken(userVo)" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;rounded=0;entryX=-0.1;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;startFill=0;" edge="1" target="AELnW6AsCIxtF1nec7tT-25" parent="1" source="AELnW6AsCIxtF1nec7tT-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="449.9955" y="121.01999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AELnW6AsCIxtF1nec7tT-32" value="makeJwtRefToken(userVo)" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;rounded=0;entryX=0.2;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;startFill=0;" edge="1" parent="1" source="AELnW6AsCIxtF1nec7tT-3" target="AELnW6AsCIxtF1nec7tT-29">
+          <mxGeometry x="0.0681" y="-1" relative="1" as="geometry">
+            <mxPoint x="425.1" y="180" as="sourcePoint" />
+            <mxPoint x="590" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="425" y="122" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AELnW6AsCIxtF1nec7tT-34" value="JwtRefToken Update" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1;exitY=0.833;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="AELnW6AsCIxtF1nec7tT-17" target="AELnW6AsCIxtF1nec7tT-6">
+          <mxGeometry x="0.5156" y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="480" y="170" as="sourcePoint" />
+            <mxPoint x="560" y="170" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
