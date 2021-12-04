@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-04T08:06:54.252Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="4XX1a2spdeTL4oMQBKPG" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-04T08:18:25.198Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="XwqpxoxI_ptTGSNK2IKt" version="15.9.1" type="github">
   <diagram id="YOmD0kXWxS8xvpvF7nBD" name="Page-1">
     <mxGraphModel dx="788" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -37,8 +37,24 @@
         <mxCell id="AELnW6AsCIxtF1nec7tT-9" value="Intercepter.java" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="370" y="380" width="100" height="300" as="geometry" />
         </mxCell>
+        <mxCell id="AELnW6AsCIxtF1nec7tT-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="AELnW6AsCIxtF1nec7tT-9">
+          <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="AELnW6AsCIxtF1nec7tT-10" value="토큰 검증" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="560" y="380" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="AELnW6AsCIxtF1nec7tT-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="AELnW6AsCIxtF1nec7tT-10">
+          <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AELnW6AsCIxtF1nec7tT-42" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="AELnW6AsCIxtF1nec7tT-41" parent="AELnW6AsCIxtF1nec7tT-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-28" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AELnW6AsCIxtF1nec7tT-43" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="AELnW6AsCIxtF1nec7tT-41" parent="AELnW6AsCIxtF1nec7tT-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-28" y="146" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="AELnW6AsCIxtF1nec7tT-11" value="OOO.java" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="750" y="380" width="100" height="300" as="geometry" />
@@ -73,6 +89,12 @@
             <mxPoint x="480" y="170" as="sourcePoint" />
             <mxPoint x="560" y="170" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AELnW6AsCIxtF1nec7tT-35" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.533;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AELnW6AsCIxtF1nec7tT-8" target="AELnW6AsCIxtF1nec7tT-38">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="250" y="470" as="sourcePoint" />
+            <mxPoint x="330" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
