@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-06T00:25:14.019Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47" etag="OQmBJBq4pl39hsBUcOck" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-06T00:29:28.150Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47" etag="EZTeQ5WfBPUArH5Ro6hT" version="15.9.1" type="github">
   <diagram id="YOmD0kXWxS8xvpvF7nBD" name="Page-1">
     <mxGraphModel dx="946" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -195,10 +195,19 @@
         <mxCell id="RkmAUX0iGO7B2VTTtuMq-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="RkmAUX0iGO7B2VTTtuMq-23">
           <mxGeometry x="46" y="176" width="10" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="RkmAUX0iGO7B2VTTtuMq-25" value="JwtTokenCheck(Ref Token)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+        <mxCell id="RkmAUX0iGO7B2VTTtuMq-25" value="억세스 토큰 생성(Ref Token)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="425" y="561" as="sourcePoint" />
             <mxPoint x="786" y="561" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkmAUX0iGO7B2VTTtuMq-27" value="억세스 토큰 리턴" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="RkmAUX0iGO7B2VTTtuMq-26" target="RkmAUX0iGO7B2VTTtuMq-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950.5" y="690" as="targetPoint" />
+            <mxPoint x="570" y="690" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="720" y="620" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
