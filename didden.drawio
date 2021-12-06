@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-06T13:16:01.765Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47" etag="W8Zv6j1mi3ywBLZW5qRI" version="15.9.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-06T13:16:58.051Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47" etag="rO3QD5uJaTvmmaEfSRcg" version="15.9.1" type="github" pages="3">
   <diagram id="YOmD0kXWxS8xvpvF7nBD" name="로그인">
     <mxGraphModel dx="946" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -137,7 +137,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_O-tzww7k63cqT1Rh6wn-11" value="리프레쉬 토큰 저장." style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" source="_O-tzww7k63cqT1Rh6wn-8" target="_O-tzww7k63cqT1Rh6wn-10" edge="1">
-          <mxGeometry x="0.7426" width="80" relative="1" as="geometry">
+          <mxGeometry x="-0.7051" width="80" relative="1" as="geometry">
             <mxPoint x="435" y="250" as="sourcePoint" />
             <mxPoint x="620" y="250" as="targetPoint" />
             <Array as="points">
@@ -502,7 +502,7 @@
         </mxCell>
         <mxCell id="Cnfbf4DLPL6F6PavA3N5-18" value="접근 허용." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Cnfbf4DLPL6F6PavA3N5-17" vertex="1" connectable="0">
           <mxGeometry x="0.5971" relative="1" as="geometry">
-            <mxPoint x="37" as="offset" />
+            <mxPoint x="-403" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Cnfbf4DLPL6F6PavA3N5-19" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="LjsIW8q8Br0KL2-wZna4-1" source="Cnfbf4DLPL6F6PavA3N5-15" target="3l962juGJcQHS5jFyqtc-2" edge="1">
@@ -517,7 +517,7 @@
         </mxCell>
         <mxCell id="Cnfbf4DLPL6F6PavA3N5-20" value="데이터 반환." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Cnfbf4DLPL6F6PavA3N5-19" vertex="1" connectable="0">
           <mxGeometry x="-0.1117" y="1" relative="1" as="geometry">
-            <mxPoint x="267" y="-1" as="offset" />
+            <mxPoint x="297" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Cnfbf4DLPL6F6PavA3N5-21" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="LjsIW8q8Br0KL2-wZna4-1" edge="1">
@@ -749,7 +749,7 @@
         </mxCell>
         <mxCell id="Cnfbf4DLPL6F6PavA3N5-78" value="리프레쉬 토큰 전달." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Cnfbf4DLPL6F6PavA3N5-77" vertex="1" connectable="0">
           <mxGeometry x="0.5971" relative="1" as="geometry">
-            <mxPoint x="-204" as="offset" />
+            <mxPoint x="-223" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Cnfbf4DLPL6F6PavA3N5-81" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="LjsIW8q8Br0KL2-wZna4-1" source="Cnfbf4DLPL6F6PavA3N5-74" target="Cnfbf4DLPL6F6PavA3N5-71" edge="1">
@@ -857,7 +857,7 @@
         </mxCell>
         <mxCell id="Cnfbf4DLPL6F6PavA3N5-137" value="접근 허용." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Cnfbf4DLPL6F6PavA3N5-136" vertex="1" connectable="0">
           <mxGeometry x="0.5971" relative="1" as="geometry">
-            <mxPoint x="37" as="offset" />
+            <mxPoint x="-403" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Cnfbf4DLPL6F6PavA3N5-138" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="LjsIW8q8Br0KL2-wZna4-1" source="Cnfbf4DLPL6F6PavA3N5-129" target="Cnfbf4DLPL6F6PavA3N5-124" edge="1">
@@ -872,7 +872,7 @@
         </mxCell>
         <mxCell id="Cnfbf4DLPL6F6PavA3N5-139" value="데이터 반환." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Cnfbf4DLPL6F6PavA3N5-138" vertex="1" connectable="0">
           <mxGeometry x="-0.1117" y="1" relative="1" as="geometry">
-            <mxPoint x="267" y="-1" as="offset" />
+            <mxPoint x="297" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Cnfbf4DLPL6F6PavA3N5-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="LjsIW8q8Br0KL2-wZna4-1" source="Cnfbf4DLPL6F6PavA3N5-58" target="Cnfbf4DLPL6F6PavA3N5-124" edge="1">
