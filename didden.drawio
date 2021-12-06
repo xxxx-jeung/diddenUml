@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-06T05:49:15.034Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47" etag="GNy5TRpFQCzGfz6Vq8n0" version="15.9.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-06T05:49:42.996Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47" etag="3DGFvjnJl9WmiK0bVzv1" version="15.9.1" type="github" pages="2">
   <diagram id="YOmD0kXWxS8xvpvF7nBD" name="토큰, 로그인/로그아웃 로직">
     <mxGraphModel dx="1113" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -279,16 +279,6 @@
         <mxCell id="RkmAUX0iGO7B2VTTtuMq-93" value="억세스 토큰 생성" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RkmAUX0iGO7B2VTTtuMq-87">
           <mxGeometry x="0.9044" y="-1" relative="1" as="geometry">
             <mxPoint x="27" y="-11" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RkmAUX0iGO7B2VTTtuMq-143" value="제외 처리" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RkmAUX0iGO7B2VTTtuMq-87">
-          <mxGeometry x="-0.3402" relative="1" as="geometry">
-            <mxPoint x="-1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RkmAUX0iGO7B2VTTtuMq-145" value="논외 영역" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RkmAUX0iGO7B2VTTtuMq-87">
-          <mxGeometry x="0.3568" y="-2" relative="1" as="geometry">
-            <mxPoint x="-2" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RkmAUX0iGO7B2VTTtuMq-92" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="RkmAUX0iGO7B2VTTtuMq-50" target="RkmAUX0iGO7B2VTTtuMq-86">
