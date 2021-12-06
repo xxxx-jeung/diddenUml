@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-06T00:56:50.563Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47" etag="4t8w89LafxGDjGHr3J4Y" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-06T01:05:08.881Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47" etag="myqxgc3QkH-f5_cuB_NH" version="15.9.1" type="github">
   <diagram id="YOmD0kXWxS8xvpvF7nBD" name="Page-1">
     <mxGraphModel dx="823" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -211,6 +211,20 @@
         </mxCell>
         <mxCell id="RkmAUX0iGO7B2VTTtuMq-86" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="RkmAUX0iGO7B2VTTtuMq-31">
           <mxGeometry x="45" y="240" width="10" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="RkmAUX0iGO7B2VTTtuMq-89" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;rounded=0;" edge="1" parent="RkmAUX0iGO7B2VTTtuMq-31" source="RkmAUX0iGO7B2VTTtuMq-78" target="RkmAUX0iGO7B2VTTtuMq-86">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="330" as="sourcePoint" />
+            <mxPoint x="220" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkmAUX0iGO7B2VTTtuMq-91" value="억세스 토큰 검증 실패.&lt;br&gt;억세스 토큰 재발급." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RkmAUX0iGO7B2VTTtuMq-89">
+          <mxGeometry x="-0.3024" relative="1" as="geometry">
+            <mxPoint x="-31" y="16" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="RkmAUX0iGO7B2VTTtuMq-35" value="LoginCheckInterceptor.java" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="370" y="760" width="100" height="300" as="geometry" />
