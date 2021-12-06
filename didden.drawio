@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-06T06:47:06.111Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47" etag="Vag_MEtTkpwcvxEGixAa" version="15.9.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-06T06:47:46.102Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47" etag="f7bXV2s9zUkcgs3dXrlX" version="15.9.1" type="github" pages="3">
   <diagram id="YOmD0kXWxS8xvpvF7nBD" name="토큰, 로그인 로직">
     <mxGraphModel dx="1183" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -431,7 +431,7 @@
         <mxCell id="vEAbK99vT7tc289Ps8B7-15" value="DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="4YTgnSFq7QoES1KGb8y6-1">
           <mxGeometry x="560" y="40" width="110" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="vEAbK99vT7tc289Ps8B7-16" value="리프레시 토큰 공백으로 수정." style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="4YTgnSFq7QoES1KGb8y6-1" source="pqADDwxAmTjOMKDu-QYZ-1" target="vEAbK99vT7tc289Ps8B7-15">
+        <mxCell id="vEAbK99vT7tc289Ps8B7-16" value="사용자 조회 후 리프레시 토큰 공백으로 수정." style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="4YTgnSFq7QoES1KGb8y6-1" source="pqADDwxAmTjOMKDu-QYZ-1" target="vEAbK99vT7tc289Ps8B7-15">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="230" y="120" as="sourcePoint" />
             <mxPoint x="310" y="120" as="targetPoint" />
