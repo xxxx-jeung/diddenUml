@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-06T06:50:08.253Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47" etag="hmOYmKPcetWw7fMEPPyO" version="15.9.1" type="github" pages="3">
-  <diagram id="YOmD0kXWxS8xvpvF7nBD" name="토큰, 로그인 로직">
-    <mxGraphModel dx="1261" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2021-12-06T06:55:54.810Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47" etag="B61_edNMR5JTmNR_R5sH" version="15.9.1" type="github" pages="3">
+  <diagram id="YOmD0kXWxS8xvpvF7nBD" name="로그인">
+    <mxGraphModel dx="996" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="DJ8Y8l9gTPi3G3LFztnH-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="DJ8Y8l9gTPi3G3LFztnH-1">
           <mxGeometry x="5" y="70" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DJ8Y8l9gTPi3G3LFztnH-3" value="logout 호출" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="DJ8Y8l9gTPi3G3LFztnH-3" value="login" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="180" y="93" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="DJ8Y8l9gTPi3G3LFztnH-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="DJ8Y8l9gTPi3G3LFztnH-3">
@@ -22,10 +22,13 @@
         <mxCell id="DJ8Y8l9gTPi3G3LFztnH-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="DJ8Y8l9gTPi3G3LFztnH-5">
           <mxGeometry x="50" y="70" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DJ8Y8l9gTPi3G3LFztnH-7" value="DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="DJ8Y8l9gTPi3G3LFztnH-7" value="토큰 생성" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="560" y="93" width="110" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="DJ8Y8l9gTPi3G3LFztnH-8" value="사용자 조회 후 리프레시 토큰 공백으로 수정." style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="DJ8Y8l9gTPi3G3LFztnH-6" target="DJ8Y8l9gTPi3G3LFztnH-7">
+        <mxCell id="UuxAwMNc86Wh1yXALW8D-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="DJ8Y8l9gTPi3G3LFztnH-7">
+          <mxGeometry x="50" y="136" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DJ8Y8l9gTPi3G3LFztnH-8" value="사용자 정보 전달" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="DJ8Y8l9gTPi3G3LFztnH-6" target="UuxAwMNc86Wh1yXALW8D-5">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="230" y="173" as="sourcePoint" />
             <mxPoint x="310" y="173" as="targetPoint" />
@@ -61,7 +64,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DJ8Y8l9gTPi3G3LFztnH-12" value="로그아웃 버튼 클릭." style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="DJ8Y8l9gTPi3G3LFztnH-2" target="DJ8Y8l9gTPi3G3LFztnH-4">
+        <mxCell id="DJ8Y8l9gTPi3G3LFztnH-12" value="로그인 버튼 클릭." style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="DJ8Y8l9gTPi3G3LFztnH-2" target="DJ8Y8l9gTPi3G3LFztnH-4">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="245" y="173" as="sourcePoint" />
             <mxPoint x="425.0000000000002" y="173" as="targetPoint" />
@@ -90,6 +93,21 @@
             <mxPoint x="490" y="113" as="sourcePoint" />
             <mxPoint x="550" y="113" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="UuxAwMNc86Wh1yXALW8D-2" value="조회 결과 값 반환." style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="UuxAwMNc86Wh1yXALW8D-5" target="DJ8Y8l9gTPi3G3LFztnH-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="190" as="sourcePoint" />
+            <mxPoint x="245" y="213" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UuxAwMNc86Wh1yXALW8D-4" value="DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="748" y="93" width="110" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="UuxAwMNc86Wh1yXALW8D-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="UuxAwMNc86Wh1yXALW8D-4">
+          <mxGeometry x="50" y="70" width="10" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
