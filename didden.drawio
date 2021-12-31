@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T12:00:21.628Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="2nerAITTAwDCHB7TjPSI" version="16.1.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-12-31T12:12:19.012Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="_6tXnk8AEgqwY-PYzOVX" version="16.1.2" type="github" pages="5">
   <diagram id="kFHUTUfpjfE5d9n7E_Rr" name="관광 API 설계">
-    <mxGraphModel dx="726" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="848" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="lXbBp450f2uTPPJqZjJi-0" />
         <mxCell id="lXbBp450f2uTPPJqZjJi-1" parent="lXbBp450f2uTPPJqZjJi-0" />
@@ -138,6 +138,78 @@
         </mxCell>
         <mxCell id="lXbBp450f2uTPPJqZjJi-27" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;areaBasedList&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
           <mxGeometry x="410" y="180" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-57" value="서비스 분류코드 조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+          <mxGeometry x="190" y="700" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-58" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;+contentTypeId&#xa;+cat1&#xa;+cat2&#xa;+cat3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-57">
+          <mxGeometry y="30" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-60" value="지역기반 관광정보 조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+          <mxGeometry x="360" y="700" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-61" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;+listYN&#xa;+arrange&#xa;+contentTypeId&#xa;+areaCode&#xa;+sigunguCode&#xa;+cat1&#xa;+cat2&#xa;+cat3&#xa;+modifiedtime" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-60">
+          <mxGeometry y="30" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-62" value="위치기반 관광정보 조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+          <mxGeometry x="530" y="700" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-63" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;+listYN&#xa;+arrange&#xa;+contentTypeId&#xa;+mapX&#xa;+mapY&#xa;+radius" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-62">
+          <mxGeometry y="30" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-64" value="키워드 검색 조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+          <mxGeometry x="700" y="700" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-65" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;+listYN&#xa;+arrange&#xa;+contentTypeId&#xa;+areaCode&#xa;+sigunguCode&#xa;+cat1&#xa;+cat2&#xa;+cat3&#xa;+keyword" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-64">
+          <mxGeometry y="30" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-66" value="공통정보 조회 (상세정보1)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+          <mxGeometry x="190" y="945" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-67" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;+contentId&#xa;+contentTypeId&#xa;+defaultYN&#xa;+firstImageYN&#xa;+areacodeYN&#xa;+catcodeYN&#xa;+addrinfoYN&#xa;+mapinfoYN&#xa;+overviewYN" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-66">
+          <mxGeometry y="30" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-68" value="소개정보 조회 (상세정보2)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+          <mxGeometry x="360" y="945" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-69" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;+contentId&#xa;+contentTypeId" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-68">
+          <mxGeometry y="30" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-70" value="반복정보 조회 (상세정보3)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+          <mxGeometry x="530" y="945" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-71" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;+contentId&#xa;+contentTypeId" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-70">
+          <mxGeometry y="30" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-72" value="이미지정보 조회 (상세정보4)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+          <mxGeometry x="700" y="945" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-73" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;+contentId&#xa;+imageYN&#xa;+subImageYN&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-72">
+          <mxGeometry y="30" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-74" value="지역코드조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+          <mxGeometry x="20" y="700" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-75" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;+areaCode" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-74">
+          <mxGeometry y="30" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-76" value="숙박정보 조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+          <mxGeometry x="20" y="945" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-77" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;+listYN&#xa;+arrange&#xa;+areaCode&#xa;+sigunguCode&#xa;+hanOk&#xa;+benikia&#xa;+goodStay&#xa;+modifiedtime" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-76">
+          <mxGeometry y="30" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-78" value="행사정보 조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+          <mxGeometry x="870" y="700" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-79" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;+listYN&#xa;+arrange&#xa;+areaCode&#xa;+sigunguCode&#xa;+eventStartDate&#xa;+eventEndDate&#xa;+modifiedtime" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-78">
+          <mxGeometry y="30" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-80" value="TourApiVo" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+          <mxGeometry x="870" y="945" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-81" value="+numOfRows&#xa;+pageNo &#xa;+MobileOS &#xa;+MobileApp &#xa;+contentId &#xa;+contentTypeId &#xa;+defaultYN &#xa;+firstImageYN &#xa;+areacodeYN &#xa;+catcodeYN &#xa;+addrinfoYN &#xa;+overviewYN &#xa;+mapinfoYN" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-80">
+          <mxGeometry y="30" width="160" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
