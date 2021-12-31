@@ -1,214 +1,208 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T12:12:19.012Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="_6tXnk8AEgqwY-PYzOVX" version="16.1.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-12-31T12:24:19.708Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="YOghR_ebtzOMakIqEZnc" version="16.1.2" type="github" pages="5">
   <diagram id="kFHUTUfpjfE5d9n7E_Rr" name="관광 API 설계">
-    <mxGraphModel dx="848" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1405" dy="1655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="lXbBp450f2uTPPJqZjJi-0" />
         <mxCell id="lXbBp450f2uTPPJqZjJi-1" parent="lXbBp450f2uTPPJqZjJi-0" />
-        <mxCell id="lXbBp450f2uTPPJqZjJi-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-5">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;" edge="1" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-6">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-26">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-7">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-8">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-9">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-10">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-11">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-12">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-13">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-14">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-3" value="http URL" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-3" value="http URL" style="whiteSpace=wrap;html=1;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="70" y="110" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-5" target="lXbBp450f2uTPPJqZjJi-22">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-5" target="lXbBp450f2uTPPJqZjJi-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-5" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;지역코드조회&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-5" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;지역코드조회&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="230" y="40" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-6" target="lXbBp450f2uTPPJqZjJi-23">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-6" target="lXbBp450f2uTPPJqZjJi-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-6" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;서비스 분류코드 조회&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-6" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;서비스 분류코드 조회&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="230" y="110" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-7" target="lXbBp450f2uTPPJqZjJi-24">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-7" target="lXbBp450f2uTPPJqZjJi-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-7" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;위치기반 관광정보 조회&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-7" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;위치기반 관광정보 조회&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="230" y="250" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-8" target="lXbBp450f2uTPPJqZjJi-25">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-8" target="lXbBp450f2uTPPJqZjJi-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-8" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;키워드 검색 조회&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-8" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;키워드 검색 조회&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="230" y="310" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-9" target="lXbBp450f2uTPPJqZjJi-16">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-9" target="lXbBp450f2uTPPJqZjJi-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-9" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;행사정보 조회&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-9" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;행사정보 조회&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="230" y="380" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-10" target="lXbBp450f2uTPPJqZjJi-17">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-10" target="lXbBp450f2uTPPJqZjJi-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-10" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;숙박정보 조회&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-10" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;숙박정보 조회&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="230" y="430" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-11" target="lXbBp450f2uTPPJqZjJi-18">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-11" target="lXbBp450f2uTPPJqZjJi-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-11" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;공통정보 조회 (상세정보1)&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-11" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;공통정보 조회 (상세정보1)&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="230" y="480" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-12" target="lXbBp450f2uTPPJqZjJi-19">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-12" target="lXbBp450f2uTPPJqZjJi-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-12" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;소개정보 조회 (상세정보2)&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-12" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;소개정보 조회 (상세정보2)&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="230" y="530" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-13" target="lXbBp450f2uTPPJqZjJi-20">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-13" target="lXbBp450f2uTPPJqZjJi-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-13" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;반복정보 조회 (상세정보3)&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-13" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;반복정보 조회 (상세정보3)&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="230" y="580" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-14" target="lXbBp450f2uTPPJqZjJi-21">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-14" target="lXbBp450f2uTPPJqZjJi-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-14" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;이미지정보 조회 (상세정보4)&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-14" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;이미지정보 조회 (상세정보4)&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="230" y="630" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-16" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;searchFestival&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-16" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;searchFestival&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="410" y="380" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-17" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;searchStay&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-17" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;searchStay&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="410" y="430" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-18" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;detailCommon&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-18" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;detailCommon&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="410" y="480" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-19" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;detailIntro&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-19" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;detailIntro&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="410" y="530" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-20" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;detailInfo&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-20" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;detailInfo&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="410" y="580" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-21" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;detailImage&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-21" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;detailImage&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="410" y="630" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-22" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;areaCode&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-22" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;areaCode&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="410" y="40" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-23" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;categoryCode&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-23" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;categoryCode&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="410" y="110" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-24" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;locationBasedList&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-24" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;locationBasedList&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="410" y="250" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-25" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;searchKeyword&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-25" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;searchKeyword&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="410" y="310" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-26" target="lXbBp450f2uTPPJqZjJi-27">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-26" target="lXbBp450f2uTPPJqZjJi-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-26" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;지역기반 관광정보 조회&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-26" value="&lt;meta charset=&quot;utf-8&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;지역기반 관광정보 조회&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="230" y="180" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-27" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;areaBasedList&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-27" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;areaBasedList&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="410" y="180" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-57" value="서비스 분류코드 조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-57" value="서비스 분류코드 조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="190" y="700" width="160" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-58" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;+contentTypeId&#xa;+cat1&#xa;+cat2&#xa;+cat3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-57">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-58" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;&#xa;+contentTypeId&#xa;+cat1&#xa;+cat2&#xa;+cat3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-57" vertex="1">
           <mxGeometry y="30" width="160" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-60" value="지역기반 관광정보 조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
-          <mxGeometry x="360" y="700" width="160" height="240" as="geometry" />
+        <mxCell id="lXbBp450f2uTPPJqZjJi-60" value="지역기반 관광정보 조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
+          <mxGeometry x="360" y="700" width="160" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-61" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;+listYN&#xa;+arrange&#xa;+contentTypeId&#xa;+areaCode&#xa;+sigunguCode&#xa;+cat1&#xa;+cat2&#xa;+cat3&#xa;+modifiedtime" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-60">
-          <mxGeometry y="30" width="160" height="210" as="geometry" />
+        <mxCell id="lXbBp450f2uTPPJqZjJi-61" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;&#xa;+listYN&#xa;+arrange&#xa;+contentTypeId&#xa;+areaCode&#xa;+sigunguCode&#xa;+cat1&#xa;+cat2&#xa;+cat3&#xa;+modifiedtime" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-60" vertex="1">
+          <mxGeometry y="30" width="160" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-62" value="위치기반 관광정보 조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-62" value="위치기반 관광정보 조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="530" y="700" width="160" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-63" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;+listYN&#xa;+arrange&#xa;+contentTypeId&#xa;+mapX&#xa;+mapY&#xa;+radius" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-62">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-63" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;&#xa;+listYN&#xa;+arrange&#xa;+contentTypeId&#xa;+mapX&#xa;+mapY&#xa;+radius" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-62" vertex="1">
           <mxGeometry y="30" width="160" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-64" value="키워드 검색 조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
-          <mxGeometry x="700" y="700" width="160" height="240" as="geometry" />
+        <mxCell id="lXbBp450f2uTPPJqZjJi-64" value="키워드 검색 조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
+          <mxGeometry x="700" y="700" width="160" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-65" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;+listYN&#xa;+arrange&#xa;+contentTypeId&#xa;+areaCode&#xa;+sigunguCode&#xa;+cat1&#xa;+cat2&#xa;+cat3&#xa;+keyword" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-64">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-65" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;&#xa;+listYN&#xa;+arrange&#xa;+contentTypeId&#xa;+areaCode&#xa;+sigunguCode&#xa;+cat1&#xa;+cat2&#xa;+cat3&#xa;+keyword" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-64" vertex="1">
+          <mxGeometry y="30" width="160" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-66" value="공통정보 조회 (상세정보1)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
+          <mxGeometry x="190" y="1047" width="160" height="273" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-67" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;&#xa;+contentId&#xa;+contentTypeId&#xa;+defaultYN&#xa;+firstImageYN&#xa;+areacodeYN&#xa;+catcodeYN&#xa;+addrinfoYN&#xa;+mapinfoYN&#xa;+overviewYN" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-66" vertex="1">
+          <mxGeometry y="30" width="160" height="243" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-68" value="소개정보 조회 (상세정보2)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
+          <mxGeometry x="360" y="1047" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lXbBp450f2uTPPJqZjJi-69" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;&#xa;+contentId&#xa;+contentTypeId" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-68" vertex="1">
           <mxGeometry y="30" width="160" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-66" value="공통정보 조회 (상세정보1)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
-          <mxGeometry x="190" y="945" width="160" height="240" as="geometry" />
+        <mxCell id="lXbBp450f2uTPPJqZjJi-70" value="반복정보 조회 (상세정보3)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
+          <mxGeometry x="530" y="1047" width="160" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-67" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;+contentId&#xa;+contentTypeId&#xa;+defaultYN&#xa;+firstImageYN&#xa;+areacodeYN&#xa;+catcodeYN&#xa;+addrinfoYN&#xa;+mapinfoYN&#xa;+overviewYN" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-66">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-71" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;&#xa;+contentId&#xa;+contentTypeId" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-70" vertex="1">
           <mxGeometry y="30" width="160" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-68" value="소개정보 조회 (상세정보2)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
-          <mxGeometry x="360" y="945" width="160" height="240" as="geometry" />
+        <mxCell id="lXbBp450f2uTPPJqZjJi-72" value="이미지정보 조회 (상세정보4)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
+          <mxGeometry x="700" y="1047" width="160" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-69" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;+contentId&#xa;+contentTypeId" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-68">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-73" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;&#xa;+contentId&#xa;+imageYN&#xa;+subImageYN&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-72" vertex="1">
           <mxGeometry y="30" width="160" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-70" value="반복정보 조회 (상세정보3)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
-          <mxGeometry x="530" y="945" width="160" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-71" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;+contentId&#xa;+contentTypeId" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-70">
-          <mxGeometry y="30" width="160" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-72" value="이미지정보 조회 (상세정보4)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
-          <mxGeometry x="700" y="945" width="160" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-73" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;+contentId&#xa;+imageYN&#xa;+subImageYN&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-72">
-          <mxGeometry y="30" width="160" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-74" value="지역코드조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-74" value="지역코드조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;align=center;arcSize=14;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="20" y="700" width="160" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-75" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;+areaCode" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-74">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-75" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;&#xa;+areaCode" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-74" vertex="1">
           <mxGeometry y="30" width="160" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-76" value="숙박정보 조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
-          <mxGeometry x="20" y="945" width="160" height="240" as="geometry" />
+        <mxCell id="lXbBp450f2uTPPJqZjJi-76" value="숙박정보 조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
+          <mxGeometry x="20" y="1047" width="160" height="263" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-77" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;+listYN&#xa;+arrange&#xa;+areaCode&#xa;+sigunguCode&#xa;+hanOk&#xa;+benikia&#xa;+goodStay&#xa;+modifiedtime" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-76">
-          <mxGeometry y="30" width="160" height="210" as="geometry" />
+        <mxCell id="lXbBp450f2uTPPJqZjJi-77" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;&#xa;+listYN&#xa;+arrange&#xa;+areaCode&#xa;+sigunguCode&#xa;+hanOk&#xa;+benikia&#xa;+goodStay&#xa;+modifiedtime" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-76" vertex="1">
+          <mxGeometry y="30" width="160" height="233" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-78" value="행사정보 조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-78" value="행사정보 조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="870" y="700" width="160" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-79" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;+listYN&#xa;+arrange&#xa;+areaCode&#xa;+sigunguCode&#xa;+eventStartDate&#xa;+eventEndDate&#xa;+modifiedtime" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-78">
-          <mxGeometry y="30" width="160" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-80" value="TourApiVo" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
-          <mxGeometry x="870" y="945" width="160" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-81" value="+numOfRows&#xa;+pageNo &#xa;+MobileOS &#xa;+MobileApp &#xa;+contentId &#xa;+contentTypeId &#xa;+defaultYN &#xa;+firstImageYN &#xa;+areacodeYN &#xa;+catcodeYN &#xa;+addrinfoYN &#xa;+overviewYN &#xa;+mapinfoYN" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-80">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-79" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;&#xa;+listYN&#xa;+arrange&#xa;+areaCode&#xa;+sigunguCode&#xa;+eventStartDate&#xa;+eventEndDate&#xa;+modifiedtime" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-78" vertex="1">
           <mxGeometry y="30" width="160" height="210" as="geometry" />
         </mxCell>
       </root>
