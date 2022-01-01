@@ -1,13 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T14:05:10.061Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="gufEVzywRyHwSpOk80ib" version="16.1.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-01-01T11:20:21.316Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="OaTbeUOTVqE_g9bi8RLR" version="16.1.2" type="github" pages="5">
   <diagram id="kFHUTUfpjfE5d9n7E_Rr" name="관광 API 설계">
-    <mxGraphModel dx="931" dy="883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1200" dy="1823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="lXbBp450f2uTPPJqZjJi-0" />
         <mxCell id="lXbBp450f2uTPPJqZjJi-1" parent="lXbBp450f2uTPPJqZjJi-0" />
         <mxCell id="lXbBp450f2uTPPJqZjJi-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lXbBp450f2uTPPJqZjJi-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-26" edge="1">
@@ -37,8 +34,11 @@
         <mxCell id="lXbBp450f2uTPPJqZjJi-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="rqelC6BZ4dlRxNMPw3aB-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-3" target="lXbBp450f2uTPPJqZjJi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lXbBp450f2uTPPJqZjJi-3" value="http URL" style="whiteSpace=wrap;html=1;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
-          <mxGeometry x="70" y="110" width="100" height="40" as="geometry" />
+          <mxGeometry x="30" y="250" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lXbBp450f2uTPPJqZjJi-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" source="lXbBp450f2uTPPJqZjJi-5" target="lXbBp450f2uTPPJqZjJi-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -139,71 +139,96 @@
         <mxCell id="lXbBp450f2uTPPJqZjJi-27" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; text-decoration: none; display: inline; float: none;&quot;&gt;areaBasedList&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=13;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="410" y="180" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-57" value="서비스 분류코드 조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-57" value="categoryCodeVo.java" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="190" y="700" width="160" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-58" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;&#xa;+contentTypeId&#xa;+cat1&#xa;+cat2&#xa;+cat3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-57" vertex="1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-58" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;&#xa;+contentTypeId&#xa;+cat1&#xa;+cat2&#xa;+cat3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-57" vertex="1">
           <mxGeometry y="30" width="160" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-60" value="지역기반 관광정보 조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-60" value="areaBasedListVo.java" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="360" y="700" width="160" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-61" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;&#xa;+listYN&#xa;+arrange&#xa;+contentTypeId&#xa;+areaCode&#xa;+sigunguCode&#xa;+cat1&#xa;+cat2&#xa;+cat3&#xa;+modifiedtime" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-60" vertex="1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-61" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;&#xa;+listYN&#xa;+arrange&#xa;+contentTypeId&#xa;+areaCode&#xa;+sigunguCode&#xa;+cat1&#xa;+cat2&#xa;+cat3&#xa;+modifiedtime" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-60" vertex="1">
           <mxGeometry y="30" width="160" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-62" value="위치기반 관광정보 조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
-          <mxGeometry x="530" y="700" width="160" height="240" as="geometry" />
+        <mxCell id="lXbBp450f2uTPPJqZjJi-62" value="locationBasedListVo.java" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
+          <mxGeometry x="530" y="700" width="200" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-63" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;&#xa;+listYN&#xa;+arrange&#xa;+contentTypeId&#xa;+mapX&#xa;+mapY&#xa;+radius" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-62" vertex="1">
-          <mxGeometry y="30" width="160" height="210" as="geometry" />
+        <mxCell id="lXbBp450f2uTPPJqZjJi-63" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;&#xa;+listYN&#xa;+arrange&#xa;+contentTypeId&#xa;+mapX&#xa;+mapY&#xa;+radius" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-62" vertex="1">
+          <mxGeometry y="30" width="200" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-64" value="키워드 검색 조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
-          <mxGeometry x="700" y="700" width="160" height="260" as="geometry" />
+        <mxCell id="lXbBp450f2uTPPJqZjJi-64" value="searchKeywordVo.java" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
+          <mxGeometry x="739" y="700" width="160" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-65" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;&#xa;+listYN&#xa;+arrange&#xa;+contentTypeId&#xa;+areaCode&#xa;+sigunguCode&#xa;+cat1&#xa;+cat2&#xa;+cat3&#xa;+keyword" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-64" vertex="1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-65" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;&#xa;+listYN&#xa;+arrange&#xa;+contentTypeId&#xa;+areaCode&#xa;+sigunguCode&#xa;+cat1&#xa;+cat2&#xa;+cat3&#xa;+keyword" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-64" vertex="1">
           <mxGeometry y="30" width="160" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-66" value="공통정보 조회 (상세정보1)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-66" value="detailCommonVo.java" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="190" y="1047" width="160" height="273" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-67" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;&#xa;+contentId&#xa;+contentTypeId&#xa;+defaultYN&#xa;+firstImageYN&#xa;+areacodeYN&#xa;+catcodeYN&#xa;+addrinfoYN&#xa;+mapinfoYN&#xa;+overviewYN" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-66" vertex="1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-67" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;&#xa;+contentId&#xa;+contentTypeId&#xa;+defaultYN&#xa;+firstImageYN&#xa;+areacodeYN&#xa;+catcodeYN&#xa;+addrinfoYN&#xa;+mapinfoYN&#xa;+overviewYN" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-66" vertex="1">
           <mxGeometry y="30" width="160" height="243" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-68" value="소개정보 조회 (상세정보2)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-68" value="detailIntroVo.java" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="360" y="1047" width="160" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-69" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;&#xa;+contentId&#xa;+contentTypeId" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-68" vertex="1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-69" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;&#xa;+contentId&#xa;+contentTypeId" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-68" vertex="1">
           <mxGeometry y="30" width="160" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-70" value="반복정보 조회 (상세정보3)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-70" value="detailInfoVo.java" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="530" y="1047" width="160" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-71" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;&#xa;+contentId&#xa;+contentTypeId" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-70" vertex="1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-71" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;&#xa;+contentId&#xa;+contentTypeId" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-70" vertex="1">
           <mxGeometry y="30" width="160" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-72" value="이미지정보 조회 (상세정보4)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-72" value="detailImageVo.java" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="700" y="1047" width="160" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-73" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;&#xa;+contentId&#xa;+imageYN&#xa;+subImageYN&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-72" vertex="1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-73" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;&#xa;+contentId&#xa;+imageYN&#xa;+subImageYN&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-72" vertex="1">
           <mxGeometry y="30" width="160" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-74" value="지역코드조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;align=center;arcSize=14;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-74" value="areaCodeVo.java" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;align=center;arcSize=14;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="20" y="700" width="160" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-75" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;&#xa;+areaCode" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-74" vertex="1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-75" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;&#xa;+areaCode" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-74" vertex="1">
           <mxGeometry y="30" width="160" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-76" value="숙박정보 조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-76" value="searchStayVo.java" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
           <mxGeometry x="20" y="1047" width="160" height="263" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-77" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;&#xa;+listYN&#xa;+arrange&#xa;+areaCode&#xa;+sigunguCode&#xa;+hanOk&#xa;+benikia&#xa;+goodStay&#xa;+modifiedtime" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-76" vertex="1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-77" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;&#xa;+listYN&#xa;+arrange&#xa;+areaCode&#xa;+sigunguCode&#xa;+hanOk&#xa;+benikia&#xa;+goodStay&#xa;+modifiedtime" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-76" vertex="1">
           <mxGeometry y="30" width="160" height="233" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-78" value="행사정보 조회" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
-          <mxGeometry x="870" y="700" width="160" height="240" as="geometry" />
+        <mxCell id="lXbBp450f2uTPPJqZjJi-78" value="searchFestivalVo.java" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="lXbBp450f2uTPPJqZjJi-1" vertex="1">
+          <mxGeometry x="909" y="700" width="160" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="lXbBp450f2uTPPJqZjJi-79" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;+ServiceKey&#xa;&#xa;+listYN&#xa;+arrange&#xa;+areaCode&#xa;+sigunguCode&#xa;+eventStartDate&#xa;+eventEndDate&#xa;+modifiedtime" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-78" vertex="1">
+        <mxCell id="lXbBp450f2uTPPJqZjJi-79" value="+numOfRows&#xa;+pageNo&#xa;+MobileOS&#xa;+MobileApp&#xa;&#xa;+listYN&#xa;+arrange&#xa;+areaCode&#xa;+sigunguCode&#xa;+eventStartDate&#xa;+eventEndDate&#xa;+modifiedtime" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="lXbBp450f2uTPPJqZjJi-78" vertex="1">
           <mxGeometry y="30" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="rqelC6BZ4dlRxNMPw3aB-7" value="관광API.java" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+          <mxGeometry x="670" y="40" width="190" height="288" as="geometry">
+            <mxRectangle x="1150" y="62" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rqelC6BZ4dlRxNMPw3aB-8" value="+ ServiceKey: Static String &#xa;+ Url : Static String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rqelC6BZ4dlRxNMPw3aB-7">
+          <mxGeometry y="26" width="190" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="rqelC6BZ4dlRxNMPw3aB-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="rqelC6BZ4dlRxNMPw3aB-7">
+          <mxGeometry y="80" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="rqelC6BZ4dlRxNMPw3aB-10" value="+ areaCode(type): type&#xa;+ categoryCode(type): type&#xa;+ areaBasedList(type): type&#xa;+ locationBasedList(type): type&#xa;+ searchKeyword(type): type&#xa;+ searchFestival(type): type&#xa;+ searchStay(type): type&#xa;+ detailCommon(type): type&#xa;+ detailIntro(type): type&#xa;+ detailInfo(type): type&#xa;+ detailImage(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rqelC6BZ4dlRxNMPw3aB-7">
+          <mxGeometry y="88" width="190" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rqelC6BZ4dlRxNMPw3aB-29" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;각 메소드(...Vo ...Vo)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;return jsonData&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+          <mxGeometry x="940" y="40" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rqelC6BZ4dlRxNMPw3aB-30" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="rqelC6BZ4dlRxNMPw3aB-29">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rqelC6BZ4dlRxNMPw3aB-34" value="&lt;div style=&quot;font-style: normal ; font-weight: normal ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; text-decoration: none ; color: rgb(238 , 255 , 255) ; background-color: rgb(33 , 33 , 33) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 12px ; line-height: 18px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(195 , 232 , 141)&quot;&gt;URL =&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(195 , 232 , 141) ; font-size: 12px&quot;&gt;http://api.visitkorea.or.kr/openapi/service/rest/KorService/{param}?&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="lXbBp450f2uTPPJqZjJi-1">
+          <mxGeometry x="670" y="-10" width="600" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
