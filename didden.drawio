@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-29T14:19:21.376Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="FIkN6EOW3c-nMd5QdlOq" version="16.4.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-02-20T23:52:16.045Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="heYrRl5irqcZsfhWDYv2" version="16.6.1" type="github" pages="6">
   <diagram id="kFHUTUfpjfE5d9n7E_Rr" name="관광 API 설계">
-    <mxGraphModel dx="1200" dy="1854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1200" dy="1821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="lXbBp450f2uTPPJqZjJi-0" />
         <mxCell id="lXbBp450f2uTPPJqZjJi-1" parent="lXbBp450f2uTPPJqZjJi-0" />
@@ -1580,6 +1580,14 @@
         <mxCell id="23qSdStgSVn4yYcoxyF6-14" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="LjsIW8q8Br0KL2-wZna4-1" vertex="1">
           <mxGeometry x="35" y="450" width="40" height="40" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ZkXVZfXohzQ125EHeken" name="회원가입(일반,소셜)">
+    <mxGraphModel dx="1200" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="-TerAhggDyYI6pz0avzV-0" />
+        <mxCell id="-TerAhggDyYI6pz0avzV-1" parent="-TerAhggDyYI6pz0avzV-0" />
       </root>
     </mxGraphModel>
   </diagram>
