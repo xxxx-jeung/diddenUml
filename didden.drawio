@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T03:58:41.064Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="uh7YcVmVtSCBMYlV6O_L" version="16.6.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-02-21T04:08:02.920Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="wCa4FLCHXkyK2TBFgTSN" version="16.6.1" type="github" pages="6">
   <diagram id="kFHUTUfpjfE5d9n7E_Rr" name="관광 API 설계">
     <mxGraphModel dx="1200" dy="1821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -734,6 +734,9 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xbZZ5SWhak7vCTw7qonw-1" value="&lt;h1&gt;로그인 유지&lt;/h1&gt;&lt;div&gt;로그인 하면 자동로그인 유지 할 수 있는 방향은 무엇일까?&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="40" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1736,6 +1739,9 @@
         <mxCell id="oRCL6GJX8AfoOJWfwv5T-5" value="네이버,&amp;nbsp;카카오,&amp;nbsp;애플&lt;br&gt;모두가 같은 이메일을 사용하거나, &lt;br&gt;서로 다른 이메일을 사용할 경우" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
           <mxGeometry x="860" y="500" width="175" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="7TUv0LBYInB_1Q8w-Om5-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="-TerAhggDyYI6pz0avzV-1" source="oRCL6GJX8AfoOJWfwv5T-6" target="oRCL6GJX8AfoOJWfwv5T-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oRCL6GJX8AfoOJWfwv5T-6" value="가입하는 계정마다 서로 다른 전화번호로 인증 한다면?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
           <mxGeometry x="860" y="570" width="175" height="30" as="geometry" />
         </mxCell>
@@ -1752,6 +1758,18 @@
               <mxPoint x="310" y="665" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7TUv0LBYInB_1Q8w-Om5-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="-TerAhggDyYI6pz0avzV-1" source="-TerAhggDyYI6pz0avzV-49" target="7TUv0LBYInB_1Q8w-Om5-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="560" />
+              <mxPoint x="310" y="885" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TUv0LBYInB_1Q8w-Om5-2" value="소셜 로그인 시 억세스 토큰, 리프레쉬 토큰 처리는 어떻게 할 것인가?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
+          <mxGeometry x="357" y="870" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
