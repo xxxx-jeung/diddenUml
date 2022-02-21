@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T00:05:08.749Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="h2jNL_Rs4ViwGpXKfLDc" version="16.6.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-02-21T00:06:40.122Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="XCLmGn3WdpDFdXxSxRmy" version="16.6.1" type="github" pages="6">
   <diagram id="kFHUTUfpjfE5d9n7E_Rr" name="관광 API 설계">
     <mxGraphModel dx="1200" dy="1821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1671,6 +1671,9 @@
         <mxCell id="-TerAhggDyYI6pz0avzV-13" value="/user/info" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
           <mxGeometry x="572" y="310" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="-TerAhggDyYI6pz0avzV-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-TerAhggDyYI6pz0avzV-1" source="-TerAhggDyYI6pz0avzV-14" target="-TerAhggDyYI6pz0avzV-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-TerAhggDyYI6pz0avzV-14" value="중복 체크는 어떻게 할 것 인가?&lt;br&gt;(전화번호, 아이디, 이메일)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
           <mxGeometry x="365" y="440" width="190" height="30" as="geometry" />
         </mxCell>
@@ -1687,6 +1690,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410" y="560" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="-TerAhggDyYI6pz0avzV-54" value="전화번호, 이메일 필수 항목으로 받아 오게끔 처리 가능한가?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
+          <mxGeometry x="635" y="440" width="175" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
