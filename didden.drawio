@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T03:52:16.992Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="edshl9GYOmVRgQE5UJE_" version="16.6.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-02-21T03:58:41.064Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="uh7YcVmVtSCBMYlV6O_L" version="16.6.1" type="github" pages="6">
   <diagram id="kFHUTUfpjfE5d9n7E_Rr" name="관광 API 설계">
     <mxGraphModel dx="1200" dy="1821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -739,7 +739,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZXe8zSn6AikqqajUzPpI" name="로그아웃">
-    <mxGraphModel dx="1200" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1200" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4YTgnSFq7QoES1KGb8y6-0" />
         <mxCell id="4YTgnSFq7QoES1KGb8y6-1" parent="4YTgnSFq7QoES1KGb8y6-0" />
