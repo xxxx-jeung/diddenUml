@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T00:24:37.567Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="jwWRBnB4sYPfBAylChv7" version="16.6.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-02-21T00:25:14.533Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="INPPahPMfPnx8QBoO5Ee" version="16.6.1" type="github" pages="6">
   <diagram id="kFHUTUfpjfE5d9n7E_Rr" name="관광 API 설계">
     <mxGraphModel dx="1200" dy="1821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1679,6 +1679,14 @@
         </mxCell>
         <mxCell id="-TerAhggDyYI6pz0avzV-19" value="&lt;h1&gt;소셜 토큰 처리&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;text-align: center&quot;&gt;소셜 로그인 시 억세스 토큰, 리프레쉬 토큰 처리는 어떻게 할 것인가?&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
           <mxGeometry x="750" y="290" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-TerAhggDyYI6pz0avzV-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-TerAhggDyYI6pz0avzV-1" source="-TerAhggDyYI6pz0avzV-48" target="-TerAhggDyYI6pz0avzV-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="308" y="560" />
+              <mxPoint x="308" y="515" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="-TerAhggDyYI6pz0avzV-48" value="사용자 관리" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
           <mxGeometry x="60" y="430" width="190" height="230" as="geometry" />
