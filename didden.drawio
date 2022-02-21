@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T01:11:31.971Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="WOT7ayVzuAfLCSvIHKA2" version="16.6.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-02-21T01:17:04.644Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="VaqIZkcHWypYNizIZ6K7" version="16.6.1" type="github" pages="6">
   <diagram id="kFHUTUfpjfE5d9n7E_Rr" name="관광 API 설계">
     <mxGraphModel dx="1200" dy="1821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1584,7 +1584,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZkXVZfXohzQ125EHeken" name="회원가입(일반,소셜)">
-    <mxGraphModel dx="1200" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1000" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="-TerAhggDyYI6pz0avzV-0" />
         <mxCell id="-TerAhggDyYI6pz0avzV-1" parent="-TerAhggDyYI6pz0avzV-0" />
@@ -1718,17 +1718,29 @@
             <mxPoint x="360" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="oRCL6GJX8AfoOJWfwv5T-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-TerAhggDyYI6pz0avzV-1" source="oRCL6GJX8AfoOJWfwv5T-1" target="oRCL6GJX8AfoOJWfwv5T-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oRCL6GJX8AfoOJWfwv5T-1" value="이메일로 중복체크 할 경우" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
           <mxGeometry x="635" y="500" width="175" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="oRCL6GJX8AfoOJWfwv5T-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-TerAhggDyYI6pz0avzV-1" source="oRCL6GJX8AfoOJWfwv5T-2" target="oRCL6GJX8AfoOJWfwv5T-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oRCL6GJX8AfoOJWfwv5T-2" value="전화번호로 중복체크 할 경우" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
           <mxGeometry x="635" y="570" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oRCL6GJX8AfoOJWfwv5T-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-TerAhggDyYI6pz0avzV-1" source="oRCL6GJX8AfoOJWfwv5T-5" target="oRCL6GJX8AfoOJWfwv5T-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oRCL6GJX8AfoOJWfwv5T-5" value="네이버,&amp;nbsp;카카오,&amp;nbsp;애플&lt;br&gt;모두가 같은 이메일을 사용하거나, &lt;br&gt;서로 다른 이메일을 사용할 경우" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
           <mxGeometry x="860" y="500" width="175" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oRCL6GJX8AfoOJWfwv5T-6" value="가입하는 계정마다 서로 다른 전화번호로 인증 한다면?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
           <mxGeometry x="860" y="570" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oRCL6GJX8AfoOJWfwv5T-9" value="회원가입할 경우 이전에 가입한 소셜정보를 표출한다." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
+          <mxGeometry x="1115" y="500" width="175" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
