@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T04:28:40.489Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="UKvXk_7qWALah92xwTZS" version="16.6.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-02-21T04:32:33.472Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="8YKig_IEOBe_X05WKkFb" version="16.6.1" type="github" pages="6">
   <diagram id="kFHUTUfpjfE5d9n7E_Rr" name="관광 API 설계">
     <mxGraphModel dx="1200" dy="1821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1709,6 +1709,9 @@
         <mxCell id="-TerAhggDyYI6pz0avzV-54" value="전화번호, 이메일 필수 항목으로 받아 오게끔 처리 가능한가?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
           <mxGeometry x="635" y="440" width="175" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="xYHijFXdj8NRUZ0KqdP4-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-TerAhggDyYI6pz0avzV-1" source="-TerAhggDyYI6pz0avzV-61" target="xYHijFXdj8NRUZ0KqdP4-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-TerAhggDyYI6pz0avzV-61" value="사용자 관심 여행 항목 컬럼 추가&lt;br&gt;- 테이블을 생성해서 조인하는게 좋을까?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
           <mxGeometry x="357" y="650" width="215" height="30" as="geometry" />
         </mxCell>
@@ -1829,6 +1832,9 @@
         </mxCell>
         <mxCell id="5-6y4gPbJKuO67EGuX1_-17" value="시간이 지나면 자동으로 세션 제거 처리?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
           <mxGeometry x="1437" y="780" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xYHijFXdj8NRUZ0KqdP4-0" value="한국관광공사에서 제공하는 코드로 관심 여행 항목으로 설정하면 될 듯." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
+          <mxGeometry x="652" y="650" width="215" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
