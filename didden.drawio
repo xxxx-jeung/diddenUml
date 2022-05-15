@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-15T03:27:19.323Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="ww37DWb6XOt1_6V2bQRz" version="18.0.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-15T03:34:59.442Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="_RVlmnlTlH1bXYHqbnyI" version="18.0.4" type="github" pages="6">
   <diagram id="kFHUTUfpjfE5d9n7E_Rr" name="관광 API 설계">
     <mxGraphModel dx="2518" dy="2475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1651,10 +1651,10 @@
           <mxGeometry x="850" y="-60" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="-TerAhggDyYI6pz0avzV-48" value="사용자 관리" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="-TerAhggDyYI6pz0avzV-1" vertex="1">
-          <mxGeometry x="60" y="650" width="190" height="231" as="geometry" />
+          <mxGeometry x="40" y="650" width="210" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="-TerAhggDyYI6pz0avzV-49" value="USER_ID&#xa;USER_NAME&#xa;USER_PASSWORD&#xa;USER_NICKNAME&#xa;USER_BIRTHDAY&#xa;USER_GENDER&#xa;USER_EMAIL&#xa;USER_PHONE_NUMBER&#xa;USER_CREATE_DATE&#xa;USER_UPDATE_DATE&#xa;USER_PRIVACY_CONSENT&#xa;USER_SOCIAL_LOGIN_TYPE&#xa;USER_REFRESH_TOKEN" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="-TerAhggDyYI6pz0avzV-48" vertex="1">
-          <mxGeometry y="30" width="190" height="201" as="geometry" />
+        <mxCell id="-TerAhggDyYI6pz0avzV-49" value="USER_ID (X)&#xa;USER_NAME (X)&#xa;USER_PASSWORD (O)&#xa;USER_NICKNAME (O)&#xa;USER_BIRTHDAY (O)&#xa;USER_GENDER (O)&#xa;USER_EMAIL (O)&#xa;USER_PHONE_NUMBER (O)&#xa;USER_CREATE_DATE (O)&#xa;USER_UPDATE_DATE (O)&#xa;USER_PRIVACY_CONSENT (O)&#xa;USER_SOCIAL_LOGIN_TYPE (O)&#xa;USER_REFRESH_TOKEN (O)&#xa;USER_ACCSESS_TOKEN (O)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="-TerAhggDyYI6pz0avzV-48" vertex="1">
+          <mxGeometry y="30" width="210" height="220" as="geometry" />
         </mxCell>
         <mxCell id="-TerAhggDyYI6pz0avzV-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="-TerAhggDyYI6pz0avzV-1" source="-TerAhggDyYI6pz0avzV-49" target="-TerAhggDyYI6pz0avzV-14" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1687,13 +1687,13 @@
         <mxCell id="oRCL6GJX8AfoOJWfwv5T-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="-TerAhggDyYI6pz0avzV-1" source="oRCL6GJX8AfoOJWfwv5T-1" target="oRCL6GJX8AfoOJWfwv5T-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oRCL6GJX8AfoOJWfwv5T-1" value="이메일로 중복체크 할 경우" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="-TerAhggDyYI6pz0avzV-1" vertex="1">
+        <mxCell id="oRCL6GJX8AfoOJWfwv5T-1" value="이메일로 중복체크 할 경우" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="-TerAhggDyYI6pz0avzV-1" vertex="1">
           <mxGeometry x="635" y="720" width="175" height="31" as="geometry" />
         </mxCell>
         <mxCell id="oRCL6GJX8AfoOJWfwv5T-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="-TerAhggDyYI6pz0avzV-1" source="oRCL6GJX8AfoOJWfwv5T-2" target="oRCL6GJX8AfoOJWfwv5T-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oRCL6GJX8AfoOJWfwv5T-2" value="전화번호로 중복체크 할 경우" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="-TerAhggDyYI6pz0avzV-1" vertex="1">
+        <mxCell id="oRCL6GJX8AfoOJWfwv5T-2" value="전화번호로 중복체크 할 경우" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="-TerAhggDyYI6pz0avzV-1" vertex="1">
           <mxGeometry x="635" y="790" width="175" height="31" as="geometry" />
         </mxCell>
         <mxCell id="L2D_k0ekQ1xY7EuMrV-q-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-TerAhggDyYI6pz0avzV-1" source="oRCL6GJX8AfoOJWfwv5T-5" target="L2D_k0ekQ1xY7EuMrV-q-30">
@@ -1841,10 +1841,12 @@
         <mxCell id="L2D_k0ekQ1xY7EuMrV-q-22" value="이메일은 이미 존재하지만, &lt;br&gt;전화번호가 다르면?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
           <mxGeometry x="859" y="860" width="175" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="L2D_k0ekQ1xY7EuMrV-q-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-TerAhggDyYI6pz0avzV-1" source="L2D_k0ekQ1xY7EuMrV-q-30" target="L2D_k0ekQ1xY7EuMrV-q-32">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="L2D_k0ekQ1xY7EuMrV-q-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-TerAhggDyYI6pz0avzV-1" source="L2D_k0ekQ1xY7EuMrV-q-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="735" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="L2D_k0ekQ1xY7EuMrV-q-30" value="이미 가입된 회원정보 입니다." style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
+        <mxCell id="L2D_k0ekQ1xY7EuMrV-q-30" value="이미 가입된 회원정보 입니다.&lt;br&gt;이전에 OOO 회원가입을 했습니다." style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
           <mxGeometry x="1080" y="705.5" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L2D_k0ekQ1xY7EuMrV-q-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-TerAhggDyYI6pz0avzV-1" source="L2D_k0ekQ1xY7EuMrV-q-32" target="L2D_k0ekQ1xY7EuMrV-q-36">
@@ -1859,7 +1861,7 @@
         <mxCell id="L2D_k0ekQ1xY7EuMrV-q-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-TerAhggDyYI6pz0avzV-1" source="L2D_k0ekQ1xY7EuMrV-q-38" target="L2D_k0ekQ1xY7EuMrV-q-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="L2D_k0ekQ1xY7EuMrV-q-38" value="이미 가입된 회원정보 입니다." style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
+        <mxCell id="L2D_k0ekQ1xY7EuMrV-q-38" value="이미 가입된 회원정보 입니다.&lt;br&gt;이전에 OOO 회원가입을 했습니다." style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
           <mxGeometry x="1080" y="775.5" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L2D_k0ekQ1xY7EuMrV-q-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-TerAhggDyYI6pz0avzV-1" source="L2D_k0ekQ1xY7EuMrV-q-40" target="L2D_k0ekQ1xY7EuMrV-q-42">
@@ -1874,7 +1876,7 @@
         <mxCell id="L2D_k0ekQ1xY7EuMrV-q-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-TerAhggDyYI6pz0avzV-1" source="L2D_k0ekQ1xY7EuMrV-q-44" target="L2D_k0ekQ1xY7EuMrV-q-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="L2D_k0ekQ1xY7EuMrV-q-44" value="이미 가입된 회원정보 입니다." style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
+        <mxCell id="L2D_k0ekQ1xY7EuMrV-q-44" value="이미 가입된 회원정보 입니다.&lt;br&gt;이전에 OOO 회원가입을 했습니다." style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
           <mxGeometry x="1080" y="845.5" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L2D_k0ekQ1xY7EuMrV-q-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-TerAhggDyYI6pz0avzV-1" source="L2D_k0ekQ1xY7EuMrV-q-46" target="L2D_k0ekQ1xY7EuMrV-q-48">
@@ -1883,7 +1885,7 @@
         <mxCell id="L2D_k0ekQ1xY7EuMrV-q-46" value="이메일은 다르지만&lt;br&gt;전화번호가 이미 존재하면?" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
           <mxGeometry x="1240" y="860" width="175" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="L2D_k0ekQ1xY7EuMrV-q-48" value="이미 가입된 회원정보 입니다." style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
+        <mxCell id="L2D_k0ekQ1xY7EuMrV-q-48" value="이미 가입된 회원정보 입니다.&lt;br&gt;이전에 OOO 회원가입을 했습니다." style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
           <mxGeometry x="1450" y="845.5" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L2D_k0ekQ1xY7EuMrV-q-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="L2D_k0ekQ1xY7EuMrV-q-51" target="L2D_k0ekQ1xY7EuMrV-q-52" parent="-TerAhggDyYI6pz0avzV-1">
@@ -1895,7 +1897,7 @@
         <mxCell id="L2D_k0ekQ1xY7EuMrV-q-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-TerAhggDyYI6pz0avzV-1" source="L2D_k0ekQ1xY7EuMrV-q-52" target="L2D_k0ekQ1xY7EuMrV-q-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="L2D_k0ekQ1xY7EuMrV-q-52" value="이미 가입된 회원정보 입니다." style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
+        <mxCell id="L2D_k0ekQ1xY7EuMrV-q-52" value="이미 가입된 회원정보 입니다.&lt;br&gt;이전에 OOO 회원가입을 했습니다." style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
           <mxGeometry x="1080" y="916" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L2D_k0ekQ1xY7EuMrV-q-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="L2D_k0ekQ1xY7EuMrV-q-54" target="L2D_k0ekQ1xY7EuMrV-q-55" parent="-TerAhggDyYI6pz0avzV-1">
@@ -1905,7 +1907,7 @@
           <mxGeometry x="1239" y="930.5" width="175" height="31" as="geometry" />
         </mxCell>
         <mxCell id="L2D_k0ekQ1xY7EuMrV-q-55" value="회원가입 성공" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
-          <mxGeometry x="1451" y="916" width="110" height="60" as="geometry" />
+          <mxGeometry x="1450" y="916" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L2D_k0ekQ1xY7EuMrV-q-73" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;false&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-TerAhggDyYI6pz0avzV-1" source="L2D_k0ekQ1xY7EuMrV-q-69" target="-TerAhggDyYI6pz0avzV-2">
           <mxGeometry relative="1" as="geometry">
@@ -1976,12 +1978,18 @@
         <mxCell id="L2D_k0ekQ1xY7EuMrV-q-94" value="true" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="-TerAhggDyYI6pz0avzV-1" source="L2D_k0ekQ1xY7EuMrV-q-92" target="L2D_k0ekQ1xY7EuMrV-q-93">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="L2D_k0ekQ1xY7EuMrV-q-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="-TerAhggDyYI6pz0avzV-1" source="L2D_k0ekQ1xY7EuMrV-q-92" target="-TerAhggDyYI6pz0avzV-2">
+        <mxCell id="L2D_k0ekQ1xY7EuMrV-q-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-TerAhggDyYI6pz0avzV-1" source="L2D_k0ekQ1xY7EuMrV-q-92" target="-TerAhggDyYI6pz0avzV-14">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="618.5000000000005" y="490" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="619" y="150" />
-              <mxPoint x="120" y="150" />
+              <mxPoint x="619" y="520" />
+              <mxPoint x="460" y="520" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L2D_k0ekQ1xY7EuMrV-q-104" value="false&lt;br&gt;ex) 이미 카카오 계정이 있지만&lt;br&gt;네이버 계정으로 로그인 시도 했을 때" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;labelBorderColor=none;" vertex="1" connectable="0" parent="L2D_k0ekQ1xY7EuMrV-q-103">
+          <mxGeometry x="-0.0798" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="L2D_k0ekQ1xY7EuMrV-q-92" value="로그인시도" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
