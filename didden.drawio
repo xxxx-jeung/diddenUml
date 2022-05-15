@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-15T03:34:59.442Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="_RVlmnlTlH1bXYHqbnyI" version="18.0.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-15T03:42:35.780Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="0SWQkfd0V4pxVE6CwPnv" version="18.0.4" type="github" pages="6">
   <diagram id="kFHUTUfpjfE5d9n7E_Rr" name="관광 API 설계">
     <mxGraphModel dx="2518" dy="2475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1587,7 +1587,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZkXVZfXohzQ125EHeken" name="회원가입(일반,소셜)">
-    <mxGraphModel dx="1476" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1530" dy="1951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="-TerAhggDyYI6pz0avzV-0" />
         <mxCell id="-TerAhggDyYI6pz0avzV-1" parent="-TerAhggDyYI6pz0avzV-0" />
@@ -1672,15 +1672,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-TerAhggDyYI6pz0avzV-61" value="사용자 관심 여행 항목 컬럼 추가&lt;br&gt;- 테이블을 생성해서 조인하는게 좋을까?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="-TerAhggDyYI6pz0avzV-1" vertex="1">
-          <mxGeometry x="357" y="1056" width="215" height="31" as="geometry" />
+          <mxGeometry x="357" y="1312" width="215" height="31" as="geometry" />
         </mxCell>
         <mxCell id="hh99yT1RWquxpOcY9oJI-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="-TerAhggDyYI6pz0avzV-1" source="-TerAhggDyYI6pz0avzV-49" target="oRCL6GJX8AfoOJWfwv5T-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="360" y="780" as="targetPoint" />
             <Array as="points">
               <mxPoint x="310" y="781" />
-              <mxPoint x="310" y="1142" />
-              <mxPoint x="350" y="1142" />
+              <mxPoint x="310" y="1086" />
+              <mxPoint x="357" y="1086" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1708,14 +1708,17 @@
         <mxCell id="oRCL6GJX8AfoOJWfwv5T-6" value="가입하는 계정 마다 &lt;br&gt;전화번호가 같으면?" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="-TerAhggDyYI6pz0avzV-1" vertex="1">
           <mxGeometry x="860" y="790" width="175" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="oRCL6GJX8AfoOJWfwv5T-12" value="계정 찾기 시도할 때?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="-TerAhggDyYI6pz0avzV-1" vertex="1">
-          <mxGeometry x="350" y="1126" width="190" height="31" as="geometry" />
+        <mxCell id="L2D_k0ekQ1xY7EuMrV-q-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="-TerAhggDyYI6pz0avzV-1" source="oRCL6GJX8AfoOJWfwv5T-12" target="L2D_k0ekQ1xY7EuMrV-q-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRCL6GJX8AfoOJWfwv5T-12" value="계정 찾기 시도할 때?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="-TerAhggDyYI6pz0avzV-1" vertex="1">
+          <mxGeometry x="357" y="1070" width="190" height="31" as="geometry" />
         </mxCell>
         <mxCell id="oRCL6GJX8AfoOJWfwv5T-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="-TerAhggDyYI6pz0avzV-1" source="-TerAhggDyYI6pz0avzV-49" target="-TerAhggDyYI6pz0avzV-61" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="310" y="781" />
-              <mxPoint x="310" y="1070" />
+              <mxPoint x="310" y="1330" />
             </Array>
             <mxPoint x="350" y="1090" as="targetPoint" />
           </mxGeometry>
@@ -1725,8 +1728,8 @@
             <mxPoint x="310" y="1110" as="targetPoint" />
             <Array as="points">
               <mxPoint x="310" y="780" />
-              <mxPoint x="310" y="1226" />
-              <mxPoint x="340" y="1226" />
+              <mxPoint x="310" y="1482" />
+              <mxPoint x="340" y="1482" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1734,7 +1737,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7TUv0LBYInB_1Q8w-Om5-2" value="소셜 로그인 시 억세스 토큰, 리프레쉬 토큰 처리는 어떻게 할 것인가?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="-TerAhggDyYI6pz0avzV-1" vertex="1">
-          <mxGeometry x="357" y="1210" width="190" height="31" as="geometry" />
+          <mxGeometry x="357" y="1466" width="190" height="31" as="geometry" />
         </mxCell>
         <mxCell id="5-6y4gPbJKuO67EGuX1_-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="-TerAhggDyYI6pz0avzV-1" source="5-6y4gPbJKuO67EGuX1_-0" target="5-6y4gPbJKuO67EGuX1_-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1745,55 +1748,55 @@
         <mxCell id="5-6y4gPbJKuO67EGuX1_-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="-TerAhggDyYI6pz0avzV-1" source="5-6y4gPbJKuO67EGuX1_-0" target="5-6y4gPbJKuO67EGuX1_-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="857" y="1225" />
-              <mxPoint x="857" y="1315" />
+              <mxPoint x="857" y="1481" />
+              <mxPoint x="857" y="1571" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="5-6y4gPbJKuO67EGuX1_-0" value="소셜 억세스 토큰, 리프레쉬 토큰&lt;br&gt;올바른 토큰인지 검증 방법은?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="-TerAhggDyYI6pz0avzV-1" vertex="1">
-          <mxGeometry x="627" y="1210" width="190" height="31" as="geometry" />
+          <mxGeometry x="627" y="1466" width="190" height="31" as="geometry" />
         </mxCell>
         <mxCell id="5-6y4gPbJKuO67EGuX1_-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="-TerAhggDyYI6pz0avzV-1" source="5-6y4gPbJKuO67EGuX1_-2" target="5-6y4gPbJKuO67EGuX1_-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5-6y4gPbJKuO67EGuX1_-2" value="카카오 억세스, 리프레쉬 토큰" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="-TerAhggDyYI6pz0avzV-1" vertex="1">
-          <mxGeometry x="897" y="1210" width="190" height="31" as="geometry" />
+          <mxGeometry x="897" y="1466" width="190" height="31" as="geometry" />
         </mxCell>
         <mxCell id="5-6y4gPbJKuO67EGuX1_-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="-TerAhggDyYI6pz0avzV-1" source="5-6y4gPbJKuO67EGuX1_-4" target="5-6y4gPbJKuO67EGuX1_-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5-6y4gPbJKuO67EGuX1_-4" value="네이버 억세스, 리프레쉬 토큰" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="-TerAhggDyYI6pz0avzV-1" vertex="1">
-          <mxGeometry x="897" y="1120" width="190" height="31" as="geometry" />
+          <mxGeometry x="897" y="1376" width="190" height="31" as="geometry" />
         </mxCell>
         <mxCell id="5-6y4gPbJKuO67EGuX1_-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="-TerAhggDyYI6pz0avzV-1" source="5-6y4gPbJKuO67EGuX1_-6" target="5-6y4gPbJKuO67EGuX1_-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5-6y4gPbJKuO67EGuX1_-6" value="애플 억세스, 리프레쉬 토큰" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="-TerAhggDyYI6pz0avzV-1" vertex="1">
-          <mxGeometry x="900" y="1300" width="180" height="31" as="geometry" />
+          <mxGeometry x="900" y="1556" width="180" height="31" as="geometry" />
         </mxCell>
         <mxCell id="5-6y4gPbJKuO67EGuX1_-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="-TerAhggDyYI6pz0avzV-1" source="5-6y4gPbJKuO67EGuX1_-11" target="5-6y4gPbJKuO67EGuX1_-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5-6y4gPbJKuO67EGuX1_-11" value="로직개발 필요" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="-TerAhggDyYI6pz0avzV-1" vertex="1">
-          <mxGeometry x="1167" y="1120" width="190" height="31" as="geometry" />
+          <mxGeometry x="1167" y="1376" width="190" height="31" as="geometry" />
         </mxCell>
         <mxCell id="5-6y4gPbJKuO67EGuX1_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="-TerAhggDyYI6pz0avzV-1" source="5-6y4gPbJKuO67EGuX1_-13" target="5-6y4gPbJKuO67EGuX1_-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5-6y4gPbJKuO67EGuX1_-13" value="로직개발 필요" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="-TerAhggDyYI6pz0avzV-1" vertex="1">
-          <mxGeometry x="1167" y="1210" width="190" height="31" as="geometry" />
+          <mxGeometry x="1167" y="1466" width="190" height="31" as="geometry" />
         </mxCell>
         <mxCell id="5-6y4gPbJKuO67EGuX1_-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="-TerAhggDyYI6pz0avzV-1" source="5-6y4gPbJKuO67EGuX1_-15" target="5-6y4gPbJKuO67EGuX1_-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5-6y4gPbJKuO67EGuX1_-15" value="로직개발 필요" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="-TerAhggDyYI6pz0avzV-1" vertex="1">
-          <mxGeometry x="1167" y="1300" width="190" height="31" as="geometry" />
+          <mxGeometry x="1167" y="1556" width="190" height="31" as="geometry" />
         </mxCell>
         <mxCell id="5-6y4gPbJKuO67EGuX1_-17" value="시간이 지나면 자동으로 세션 제거 처리?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="-TerAhggDyYI6pz0avzV-1" vertex="1">
-          <mxGeometry x="1437" y="1120" width="190" height="31" as="geometry" />
+          <mxGeometry x="1437" y="1376" width="190" height="31" as="geometry" />
         </mxCell>
         <mxCell id="xYHijFXdj8NRUZ0KqdP4-0" value="한국관광공사에서 제공하는 코드로 관심 여행 항목으로 설정하면 될 듯." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="-TerAhggDyYI6pz0avzV-1" vertex="1">
-          <mxGeometry x="652" y="1056" width="215" height="31" as="geometry" />
+          <mxGeometry x="652" y="1312" width="215" height="31" as="geometry" />
         </mxCell>
         <mxCell id="23EBmLrJbA53d0vyjRKf-0" value="&lt;h1&gt;소셜 토큰 처리&lt;/h1&gt;&lt;div&gt;억세스 토큰과 리프레쉬 토큰을 DB 에 저장한다.&lt;/div&gt;&lt;div&gt;로그인에 성공하면 억세스 토큰을 클라이언트에게 전달한다.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
           <mxGeometry x="1080" y="-60" width="190" height="120" as="geometry" />
@@ -1997,6 +2000,32 @@
         </mxCell>
         <mxCell id="L2D_k0ekQ1xY7EuMrV-q-93" value="메인페이지" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
           <mxGeometry x="724" y="368" width="119" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L2D_k0ekQ1xY7EuMrV-q-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="-TerAhggDyYI6pz0avzV-1" source="L2D_k0ekQ1xY7EuMrV-q-105" target="L2D_k0ekQ1xY7EuMrV-q-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L2D_k0ekQ1xY7EuMrV-q-105" value="닉네임&lt;br&gt;생년월일&lt;br&gt;이메일&lt;br&gt;핸드폰번호&lt;br&gt;로그인 타입" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
+          <mxGeometry x="627.5" y="1045.5" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L2D_k0ekQ1xY7EuMrV-q-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="-TerAhggDyYI6pz0avzV-1" source="L2D_k0ekQ1xY7EuMrV-q-107" target="L2D_k0ekQ1xY7EuMrV-q-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L2D_k0ekQ1xY7EuMrV-q-113" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="L2D_k0ekQ1xY7EuMrV-q-110">
+          <mxGeometry x="-0.1728" y="-3" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L2D_k0ekQ1xY7EuMrV-q-112" value="false" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="-TerAhggDyYI6pz0avzV-1" source="L2D_k0ekQ1xY7EuMrV-q-107" target="L2D_k0ekQ1xY7EuMrV-q-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L2D_k0ekQ1xY7EuMrV-q-107" value="찾기시도" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;rounded=0;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
+          <mxGeometry x="880" y="1045.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L2D_k0ekQ1xY7EuMrV-q-109" value="비밀번호 초기화" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;rounded=0;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
+          <mxGeometry x="1020" y="1055.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L2D_k0ekQ1xY7EuMrV-q-111" value="계정 찾기 페이지" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;rounded=0;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
+          <mxGeometry x="860" y="1190" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
