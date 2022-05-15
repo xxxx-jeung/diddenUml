@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-15T03:49:23.825Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="NjethfeOXLtMgkQ2BGFX" version="18.0.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-15T03:54:05.514Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="uZM_CnMv5R9cuKSji4NP" version="18.0.4" type="github" pages="6">
   <diagram id="kFHUTUfpjfE5d9n7E_Rr" name="관광 API 설계">
     <mxGraphModel dx="2518" dy="2475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1587,7 +1587,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZkXVZfXohzQ125EHeken" name="회원가입(일반,소셜)">
-    <mxGraphModel dx="892" dy="2158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="892" dy="2182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="-TerAhggDyYI6pz0avzV-0" />
         <mxCell id="-TerAhggDyYI6pz0avzV-1" parent="-TerAhggDyYI6pz0avzV-0" />
@@ -2067,6 +2067,12 @@
         </mxCell>
         <mxCell id="L2D_k0ekQ1xY7EuMrV-q-131" value="&lt;h1&gt;소셜 토큰 처리&lt;/h1&gt;&lt;div&gt;억세스 토큰과 리프레쉬 토큰을 DB 에 저장한다.&lt;/div&gt;&lt;div&gt;로그인에 성공하면 억세스 토큰을 클라이언트에게 전달한다.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
           <mxGeometry x="600" y="1830" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="L2D_k0ekQ1xY7EuMrV-q-133" value="&lt;h1&gt;소셜 토큰 처리&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;text-align: center&quot;&gt;소셜 로그인 시 억세스 토큰, 리프레쉬 토큰 처리는 어떻게 할 것인가?&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
+          <mxGeometry x="380" y="1840" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="L2D_k0ekQ1xY7EuMrV-q-134" value="&lt;h1&gt;회원가입 중복체크&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;text-align: center&quot;&gt;이메일 인증 및 핸드폰 본인인증 서비스는 비용 문제로 이를 해결하기 위한 방안을 모색하다 로직을 고민함.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
+          <mxGeometry x="316.5" y="701" width="271" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
