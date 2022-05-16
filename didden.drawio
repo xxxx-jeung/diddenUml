@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-16T04:49:00.406Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.47" etag="_Jzbhi8TQa8itSUeG4UE" version="16.0.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-16T04:52:04.309Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.47" etag="Dz6WZldhJ6fzuS4um2UR" version="16.0.0" type="github" pages="6">
   <diagram id="kFHUTUfpjfE5d9n7E_Rr" name="관광 API 설계">
     <mxGraphModel dx="2350" dy="2354" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1587,7 +1587,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZkXVZfXohzQ125EHeken" name="회원가입(일반,소셜)">
-    <mxGraphModel dx="2238" dy="2298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3065" dy="2298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="-TerAhggDyYI6pz0avzV-0" />
         <mxCell id="-TerAhggDyYI6pz0avzV-1" parent="-TerAhggDyYI6pz0avzV-0" />
@@ -2253,8 +2253,8 @@
         <mxCell id="R26ybD_G53XpRJ2rp_GM-86" value="문의사항" style="html=1;shadow=1;fontFamily=Helvetica;fontSize=18;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
           <mxGeometry x="170" y="2920" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="R26ybD_G53XpRJ2rp_GM-90" value="&lt;h1&gt;AP 로그인, 소셜 로그인 토큰 문제&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;fontFamily=Helvetica;fontSize=18;fontColor=default;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
-          <mxGeometry x="880" y="2440" width="540" height="260" as="geometry" />
+        <mxCell id="R26ybD_G53XpRJ2rp_GM-90" value="&lt;h1&gt;AP 로그인, 소셜 로그인 토큰 문제&lt;/h1&gt;&lt;p&gt;AP 에서 제공하는 토큰 값과 소셜 에서 제공하는 토큰값이 서로 다르므로 로그인 하는데 문제가 발생할 것으로 예상됨.&lt;/p&gt;&lt;p&gt;1. 소셜에서 제공하는 억세스 토큰을 디코딩, DB 에 저장되어있는 억세스 토큰 값 디코딩해서 서로의 값을 비교해 일치하면 로그인 진행?&lt;br&gt;2.&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;fontFamily=Helvetica;fontSize=18;fontColor=default;" vertex="1" parent="-TerAhggDyYI6pz0avzV-1">
+          <mxGeometry x="-530" y="2440" width="540" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
